@@ -1,0 +1,129 @@
+<!--HTML- & CSS-Cheatsheet-->
+
+<!Doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML- & CSS-Cheatsheet</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+	</head>
+	<body>
+	<h4>Cheatsheet</h4>
+
+<!--Code für die Erklärungen zum Box-Modell-->	
+	<h2>CSS-Box Model</h2>
+	<p>Eine Box hat in CSS 4 Bereiche, die durch CSS verändert werden können: Content, Border, Padding und Margin.</p>
+	<ul>
+		<li>Berechnung der kompletten Breite eines Elements: margin-left + border-left-width + padding-left + width + padding-right + border-right-width + margin-right</li>
+		<li>Berechnung der kompletten Höhe eines Elements: margin-top + border-top-width + padding-top + height + padding-bottom + border-bottom-width + margin-bottom</li>
+	</ul>
+	<img src="boxModel.png" alt="Das CSS-Box-Model mit Content, Padding, Border & Margin">
+	
+	<h3>Content</h3>
+	<p>Hier wird der Inhalt der Box angezeigt. Das heisst, der geschriebene Text und die eingefügten Bilder werden hier angezeigt. Der Content eines Elementes hat 2 Dimensionen:</p>	
+	<ul>
+		<li>height in Pixel</li>
+		<li>width in Pixel</li>
+	</ul>
+
+	<h3>Padding</h3>
+	<p>Füllt den Raum zwischen dem Content einer Box und dem Rahmen einer Box aus. Kann mit Pixel in padding-top, padding-right, padding-bottom & padding-left einzel definiert werden oder in dieser Reihenfolge in einer Zeile.</p>
+
+	<h3>Border</h3>
+	<p>Das ist die Linie, welche das Element umrandet. Der Rahmen kann mit width, style & color spezifiziert werden. Für einen perfekten Kreis kann die Höhe & Breite auf die gleiche Pixelgrösse gesetzt werden & der border-radius dabei auf 50% definiert werden.</p>
+		<ul>
+		<li>width: Dicke des Rahmens - Kann in Pixel oder mit den Keywords thin, medium, thick definiert werden</li>
+		<li>style: Design des Rahmens - Styles wie none, dotted, solid, hidden, dashed, groove, ridge, inset, outset</li>
+		<li>color: Farbe des Rahmens - In Hexadezimalcode, in RGB oder mit color-Keywords</li>
+	</ul>	
+
+	<h3>Margin</h3>
+	<p>Bestimmt die Grösse des Raumes direkt ausserhalb der Box. Kann mit Pixel in margin-top, margin-right, margin-bottom & margin-left einzel definiert werden oder in dieser Reihenfolge in einer Zeile.</p>
+
+<!--Code für die Erklärung zu den Tags & Attributen von Tabellen-->
+<!--Zeichen < ist in Text &lt; Zeichen > ist in Text &gt-->
+	<h2>Tags & Attribute für Tabellen</h2>
+	<h3>Tags</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Beschreibung</th>
+			</tr>
+		</thead>
+
+			<tbody>
+			<tr>
+				<td>&lt;table&gt</td>
+				<td>Table</td>
+				<td>Das wrapper Element für die gesamte HTML Tabelle.</td>
+			</tr>
+
+			<tr>
+				<td>&lt;thead&gt</td>
+				<td>Table Head</td>
+				<td>Das Set von Zeilen, welche die Anzahl an Spalten-headers in einer Tabelle definiert.</td>
+			</tr>
+
+			<tr>
+				<td>&lt;tbody&gt</td>
+				<td>Table Body</td>
+				<td>Das Set von Zeilen, welche den tatsächlichen Inhalt der Tabelle enthalten.</td>
+			</tr>
+
+			<tr>
+				<td>&lt;tr&gt</td>
+				<td>Table Row</td>
+				<td>Der Container für die Tabellenzeilen.</td>
+			</tr>
+
+			<tr>
+				<td>&lt;td&gt</td>
+				<td>Table Data</td>
+				<td>Der Container für die Tabellenzeilen.</td>
+			</tr>		
+
+			<tr>
+				<td>&lt;tfoot&gt</td>
+				<td>Table Foot</td>
+				<td>Das Set von Zeilen, welche den Footer einer Tabelle definieren.</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+	<h3>Attribute</h3>
+	<table class="attribute">
+		<thead>
+			<tr>
+				<th>Attribut</th>
+				<th>Name</th>
+				<th>Beschreibung</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>colspan</td>
+				<td>Col Span</td>
+				<td>Definiert, wie viele Spalten ein td Element überspannen soll.</td>
+			</tr>
+
+			<tr>
+				<td>rowspan</td>
+				<td>Row Span</td>
+				<td>Definiert, wie viele Zeilen ein td Element überspannen soll.</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+	<div class="next">
+		<p>Zum nächsten Kapitel &rarr;</p>	
+	</div>
+
+
+	</body>
+	</html>
