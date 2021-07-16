@@ -1,0 +1,54 @@
+/*HTML- & CSS-Cheatsheet*/
+
+/* latin */
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400; 500; 800;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v12/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html {
+	background-color: #81b69d;
+	color: #333333;
+	font-family: Verdana;
+	margin: 20px 500px 100px 40px;
+}
+
+
+
+img {
+	max-width: 400px;
+	height: auto;
+}
+
+table th, td{
+	border: 5px solid #5aa17f;
+	border-collapse: collapse;
+	padding: .9em .9em;
+	border-radius: .1em;
+	font-size: 14px;
+	margin: 40px;
+}
+
+
+td {
+	font-style: italic;
+	text-align: center;
+}
+
+tbody tr:hover {
+	background-color: #5aa17f;
+	font-weight: bold;
+}
+
+tbody td:hover {
+	background-color: #5aa17f;
+	font-weight: bold;
+}
+
+.next:hover {
+	font-weight: bold;
+}
